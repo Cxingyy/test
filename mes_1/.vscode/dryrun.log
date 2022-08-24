@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cxy/通讯录/mes_1'
+cc -c -o    -c -o main.o main.c
+cc -c -o    -c -o add.o add.c
+cc -c -o    -c -o address_book.o address_book.c
+cc -c -o    -c -o show.o show.c
+cc -c -o    -c -o search.o search.c
+cc -c -o    -c -o delete.o delete.c
+cc -c -o    -c -o revise.o revise.c
+cc -c -o    -c -o clear.o clear.c
+cc main.o add.o address_book.o show.o search.o delete.o revise.o clear.o -o  run
+make: Leaving directory '/home/cxy/通讯录/mes_1'
+ 
